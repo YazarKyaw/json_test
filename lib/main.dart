@@ -38,6 +38,7 @@ class MyApp extends StatelessWidget {
         ),
         floatingActionButton: FloatingActionButton(
           onPressed: () async {
+            print('test');
             // var jsonCity = await _loadJsonFromJson('data_two.json');
             // MyCity city = MyCity.fromJson(json.decode(jsonCity));
             // print(city.toJson());
